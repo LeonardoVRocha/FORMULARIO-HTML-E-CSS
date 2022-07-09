@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Pet</title>
+</head>
+<body>
+    
+    <div class="bloco-cadastro">
+
+        <img src="pet.png">
+
+        <h1>Cadastrar Pet</h1>
+
+        <form>
+
+            <div class="nome-idade">
+                <input type="text" placeholder="Nome do Pet" class="nome">
+                <input type="number" placeholder="Idade" class="idade">
+            </div>    
+            
+            <input type="email" placeholder="Email">
+            
+            <p>Espécie</p>
+            
+            <div class="radio">
+
+                <span>
+                    <input type="radio" id="canino" name="especie">
+                    <label for="canino">Canino</label>
+                </span>
+                <span>
+                    <input type="radio" id="felino" name="especie">
+                    <label for="felino">Felino</label>
+                </span>
+
+            </div>
+            
+            <p>Porte</p>
+
+            <div class="radio">
+                <span>
+                    <input type="radio" id="pequeno" name="altura">
+                    <label for="pequeno">Pequeno</label>
+                </span>
+                <span>
+                    <input type="radio" id="medio" name="altura">
+                    <label for="medio">Medio</label>
+                </span>
+                <span>
+                    <input type="radio" id="grande" name="altura">
+                    <label for="grande">Grande</label>
+                </span>
+            </div>
+
+            <button>Cadastrar</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
